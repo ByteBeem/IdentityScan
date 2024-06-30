@@ -8,16 +8,6 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.sp
 
 // Define custom typography
-val IdentityScanTypography = Typography.copy(
-    h1 = TextStyle(
-        fontWeight = FontWeight.Bold,
-        fontSize = 28.sp
-    ),
-    body1 = TextStyle(
-        fontSize = 16.sp,
-        lineHeight = 24.sp
-    )
-)
 
 private val DarkColorScheme = darkColorScheme(
     primary = Color(0xFFBB86FC),
@@ -50,7 +40,7 @@ fun IdentityScanTheme(
 
     MaterialTheme(
         colorScheme = colors,
-        typography = IdentityScanTypography, // Apply custom typography
+       // typography = IdentityScanTypography, // Apply custom typography
         content = content
     )
 }
